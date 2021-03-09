@@ -2,7 +2,7 @@ import pandas as pd
 import time
 
 ### Put you file names here for the script to work
-files = ["DVS_2015-01-01.csv"]
+files = ["DVS_2013-12-31.csv"]
 
 def clean_file(filepath):
 
@@ -14,17 +14,20 @@ def clean_file(filepath):
     counter = 0
 
     ## Remove unnecesary columns and write <Root> to the xml file
+    if len(df.iloc[0]) >= 3:
+        df.drop(df.columns[-1], axis=1, inplace=True)
+
     df.drop(df.columns[0], axis=1, inplace=True) 
-    df.drop(df.columns[-1], axis=1, inplace=True)
     f.write("<Root>"+"\n")
 
-
-    ## Itterate through all the rows and clean them up
+    ## Iterate through all the rows and clean them up
     for row_index in range(len(df)):
+
+        cleaned = ""
+        raw_text = ""
 
         ### Select the text from the df
         raw_text = df.iloc[row_index].values[0]
-        cleaned = ""
 
         ## Check if certain flaws are in the text and removes them
         if " <?xml" in raw_text:
