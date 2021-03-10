@@ -1,6 +1,6 @@
 # CSV_XML_Cleaner
-.py 	= Visual Studio
-.ipynb 	= Jupyter Notebook
+
+<br><br>
 
 ## How to use the manual xml cleaner
 
@@ -19,3 +19,10 @@
 2. scroll down and copy the month you want to download
 3. fill the 'urls' variable with the month of choice
 4. run the script
+5. 
+6. <br>
+
+## File information
+
+.py 	= Visual Studio
+.ipynb 	= Jupyter Notebook
