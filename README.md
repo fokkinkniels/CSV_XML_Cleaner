@@ -1,6 +1,6 @@
 # CSV_XML_Cleaner
 
-<br><br>
+<br>
 
 ## How to use the manual xml cleaner
 
@@ -25,4 +25,5 @@
 ## File information
 
 .py 	= Visual Studio
+
 .ipynb 	= Jupyter Notebook
