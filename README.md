@@ -15,10 +15,10 @@
 
 ## How to use the automatic xml cleaner
 
-1. open the script in a text-editor
-2. scroll down and copy the month you want to download
-3. fill the 'urls' variable with the month of choice
-4. run the script
+1. Open the script in a text-editor.
+2. Scroll down and copy the month you want to download.
+3. Fill the 'urls' variable with the month of choice.
+4. Run the script.
 
 <br>
 
