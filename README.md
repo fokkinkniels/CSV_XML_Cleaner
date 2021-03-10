@@ -19,8 +19,8 @@
 2. scroll down and copy the month you want to download
 3. fill the 'urls' variable with the month of choice
 4. run the script
-5. 
-6. <br>
+
+<br>
 
 ## File information
 
