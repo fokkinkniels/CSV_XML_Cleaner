@@ -14,11 +14,16 @@
 <br>
 
 ## How to use the automatic xml cleaner
-
+### Visual Studio
 1. Open the script in a text-editor.
 2. Scroll down and copy the month you want to download.
 3. Fill the 'urls' variable with the month of choice.
 4. Run the script.
+
+### Jupyter Notebook
+1. Run the URLS cell.
+2. Fill the 'urls' variable with the month of choice.
+3. Run the script.
 
 <br>
 
